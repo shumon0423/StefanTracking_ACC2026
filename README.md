@@ -21,7 +21,7 @@ This repository provides a simulation environment for exploring the safe control
 The repository is organized as follows:
 
 ```
-/HighOrderStefan_CDC2025
+/StefanTracking_ACC2026
 │─ src/                # Source code
 │   │─ main.py         # Main execution script
 │   │─ solve.py        # Numerical solver
@@ -42,8 +42,8 @@ The repository is organized as follows:
 1. **Clone the repository:**
 
    ```bash
-   git clone [https://github.com/shumon0423/HighOrderStefan_CDC2025.git](https://github.com/shumon0423/HighOrderStefan_CDC2025.git)
-   cd HighOrderStefan_CDC2025
+   git clone [https://github.com/shumon0423/StefanTracking_ACC2026.git](https://github.com/shumon0423/StefanTracking_ACC2026.git)
+   cd StefanTracking_ACC2026
    ```
 
 2. **Install dependencies:**
