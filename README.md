@@ -1,8 +1,17 @@
-# Safe Control of the Stefan PDE with High-Order Moving Boundary
+# Safe Trajectory Tracking of the Stefan Problem with Second-Order Moving Boundary Dynamics
+
+## Paper
+
+This repository accompanies the following paper:
+
+> **Safe Trajectory Tracking of the Stefan Problem with Second-Order Moving Boundary Dynamics**
+> Shumon Koga and Miroslav Krstic
+> *American Control Conference (ACC) 2026*
+> [[arXiv]](https://arxiv.org/abs/2605.25084) · [[PDF]](https://arxiv.org/pdf/2605.25084)
 
 ## Overview
 
-This repository provides a simulation environment for exploring the safe control of the Stefan problem, which is a mathematical model of a moving boundary problem that appears in phase change problems, such as melting and solidification. The Stefan PDE with a high-order moving boundary is a challenging control problem. This project implements a numerical solver and control strategies to simulate and control the system safely.
+This repository provides a simulation environment for exploring the safe trajectory tracking of the Stefan problem, which is a mathematical model of a moving boundary problem that appears in phase change problems, such as melting and solidification. This project implements a numerical solver and control strategies to simulate and track the desired trajectory of the system safely.
 
 ## Features
 
@@ -118,6 +127,21 @@ reference:
   delta_2: 0.004 # Secondary decay rate [1/s]
   N_series: 5    # Taylor series terms for reference temperature profile
 ```
+
+## Citation
+
+If you find this code useful in your research, please cite:
+
+```bibtex
+@inproceedings{koga2026stefan,
+  title     = {Safe Trajectory Tracking of the {Stefan} Problem with Second-Order Moving Boundary Dynamics},
+  author    = {Koga, Shumon and Krstic, Miroslav},
+  booktitle = {Proceedings of the American Control Conference (ACC)},
+  year      = {2026},
+  url       = {https://arxiv.org/abs/2605.25084}
+}
+```
+
 <!-- 
 ## Contributing
 
