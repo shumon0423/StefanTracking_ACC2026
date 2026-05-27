@@ -136,7 +136,7 @@ If you find this code useful in your research, please cite:
 @inproceedings{koga2026stefan,
   title     = {Safe Trajectory Tracking of the {Stefan} Problem with Second-Order Moving Boundary Dynamics},
   author    = {Koga, Shumon and Krstic, Miroslav},
-  booktitle = {Proceedings of the American Control Conference (ACC)},
+  booktitle = {2026 American Control Conference (ACC)},
   year      = {2026},
   url       = {https://arxiv.org/abs/2605.25084}
 }
